@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import './index.css';
+import './components/Tasks'
+import Tasks from './components/Tasks';
 
 const App = () => {
   // let message = "Mariass Alice"
@@ -19,7 +21,9 @@ const App = () => {
 
   return (
     <>
-      <div className='container'></div>
+      <div className='container'>
+        <Tasks tasks={tasks}/>
+      </div>
     </>
   );
 };
