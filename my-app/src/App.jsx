@@ -3,6 +3,7 @@ import './App.css';
 import './index.css';
 import './components/Tasks'
 import Tasks from './components/Tasks';
+import AddTask from './components/AddTask';
 
 const App = () => {
   // let message = "Mariass Alice"
@@ -22,6 +23,7 @@ const App = () => {
   return (
     <>
       <div className='container'>
+        <AddTask/>
         <Tasks tasks={tasks}/>
       </div>
     </>
