@@ -4,7 +4,6 @@ import './index.css';
 import './components/Tasks'
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
-import Salve from './components/teste';
 
 const App = () => {
   // let message = "Mariass Alice"
@@ -13,6 +12,11 @@ const App = () => {
       id: '1',
       title: 'Estudar React',
       completed: false,
+    },
+    {
+      id: '2',
+      title: 'Estudar Git Flow',
+      completed: true,
     },
     {
       id: '2',
